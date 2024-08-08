@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador de Jardinería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cotizador de Jardinería</h1>
+
+        <!-- Mostrar el valor actual del dólar -->
+        <div id="valor-dolar">
+            <strong>Valor actual del Dólar Blue: </strong><span id="dolar-actual">Cargando...</span> ARS
+        </div>
+
+        <label for="dolar">Precio del dólar actual (ARS):</label>
+        <input type="number" id="dolar" value="" min="0">
+
+        <label for="nafta">Precio de la nafta por litro (ARS):</label>
+        <input type="number" id="nafta" value="1300" min="0">
+
+        <label for="aceite">Precio del tarro de aceite (ARS):</label>
+        <input type="number" id="aceite" value="3000" min="0">
+
+        <div id="terrenos">
+            <h2>Terrenos</h2>
+            <div class="terreno">
+                <label for="ancho">Ancho (metros):</label>
+                <input type="number" class="ancho" min="0">
+
+                <label for="largo">Largo (metros):</label>
+                <input type="number" class="largo" min="0">
+
+                <button class="remove-terreno">Eliminar Terreno</button>
+            </div>
+        </div>
+
+        <button id="add-terreno">Agregar Terreno</button>
+        
+        <button id="calculate">Calcular Cotización</button>
+
+        <h2>Resultados:</h2>
+        <div id="resultados">
+            <p>Total en metros cuadrados: <span id="total-m2">0</span> m²</p>
+            <p>Costo de la máquina: <span id="cost-maquina">0</span> ARS</p>
+            <p>Cotización final: <span id="cotizacion">0</span> ARS</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
