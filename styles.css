@@ -1,75 +1,110 @@
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 10%;
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    color: #343a40;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
+/* Contenedor principal */
 .container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 480px;
     width: 100%;
+    box-sizing: border-box;
+    margin: 20px; /* Añade margen para evitar que se corte en pantallas pequeñas */
 }
 
+/* Estilo para el título principal */
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    font-size: 1.8em;
+    color: #007bff;
 }
 
+/* Etiquetas y campos de entrada */
 label {
     display: block;
-    margin-top: 10px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #495057;
 }
 
 input {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
     border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
 }
 
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Botones */
 button {
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: #28a745;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 20px;
     margin-top: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #218838;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-#resultados {
-    margin-top: 20px;
-}
-
+/* Botones para añadir y calcular */
 #add-terreno, #calculate {
     width: 100%;
+    margin-top: 15px;
 }
 
+/* Resultados */
+#resultados {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Estilos para cada bloque de terreno */
 .terreno {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
 }
 
+/* Botón de eliminar terreno */
 .terreno button {
-    background-color: #ff4d4d;
+    background-color: #dc3545;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .terreno button:hover {
-    background-color: #ff3333;
+    background-color: #c82333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
