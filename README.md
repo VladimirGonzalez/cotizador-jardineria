@@ -14,11 +14,6 @@ El **Cotizador de Jardinería** es una herramienta web que permite a los usuario
 - **Soporte para Múltiples Terrenos:** Posibilidad de agregar varios terrenos con diferentes dimensiones y generar un cálculo completo del costo total.
 - **Actualización del Dólar Blue:** Incluye la opción de mostrar el valor actualizado del dólar blue en Argentina, útil para ajustar precios en tiempo real.
 
-## Capturas de Pantalla
-
-![Pantalla de inicio](./images/home.png)
-![Pantalla de resultados](./images/results.png)
-
 ## Instalación
 
 Sigue estos pasos para instalar y ejecutar el proyecto localmente:
