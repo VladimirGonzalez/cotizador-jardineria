@@ -57,5 +57,5 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
 
 ## Contacto
 
-Desarrollado por [Tu Nombre](https://github.com/VladimirGonzalez). Puedes contactarme en mi correo [vladimir.gonzalez.352@hotmail.com](vladimir.gonzalez.352@hotmail.com) para cualquier consulta o sugerencia.
+Desarrollado por (https://github.com/VladimirGonzalez). Puedes contactarme en mi correo [vladimir.gonzalez.352@hotmail.com](vladimir.gonzalez.352@hotmail.com) para cualquier consulta o sugerencia.
 
