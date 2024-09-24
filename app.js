@@ -61,7 +61,7 @@ function calcularCotizacion() {
 
     const costoPorM2 = 0.1 * dolar;
     const costoMaquina = ((totalM2 / 100) * nafta) + (aceite / 5);
-    const cotizacionFinal = Math.ceil((costoPorM2 * totalM2 + costoMaquina) / 1000) * 1000;
+    const cotizacionFinal = Math.ceil((costoPorM2 * totalM2 + costoMaquina) / 1000) * 500;
 
     document.getElementById('total-m2').textContent = totalM2;
     document.getElementById('cost-maquina').textContent = Math.ceil(costoMaquina);
@@ -107,7 +107,7 @@ function calcularCotizacion() {
 
     const costoPorM2 = 0.1 * dolar;
     const costoMaquina = ((totalM2 / 100) * nafta) + (aceite / 5);
-    const cotizacionFinal = Math.ceil((costoPorM2 * totalM2 + costoMaquina) / 1000) * 1000;
+    const cotizacionFinal = Math.ceil((costoPorM2 * totalM2 + costoMaquina) / 1000) * 500;
 
     document.getElementById('total-m2').textContent = totalM2;
     document.getElementById('cost-maquina').textContent = Math.ceil(costoMaquina);
